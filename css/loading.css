@@ -11,6 +11,7 @@ body {
 
 .loading-text {
     font-size: 50px;
+    color: white;
 }
 
 .bg {
@@ -18,4 +19,9 @@ body {
     width: 100vw;
     position: absolute;
     z-index: -1;
+    background-image: url("images/reef.jpg");
+    background-position: center;
+    background-size: cover;
+    /*in case photo is too small and repeats
+     background-repeat: no-reat;*/
 }
