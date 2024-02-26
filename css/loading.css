@@ -12,6 +12,7 @@ body {
 .loading-text {
     font-size: 50px;
     color: white;
+    opacity: 1;
 }
 
 .bg {
@@ -23,5 +24,6 @@ body {
     background-position: center;
     background-size: cover;
     /*in case photo is too small and repeats
-     background-repeat: no-reat;*/
+     background-repeat: no-repeat;*/
+     filter: blur(0px)
 }
