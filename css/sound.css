@@ -11,7 +11,8 @@ body {
 }
 
 .btn {
-    color: rgb(225, 5, 5);
+    background-color: rgb(245, 203, 255);
+    font-size: 1.2rem;
 }
 
 
