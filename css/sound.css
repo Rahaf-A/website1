@@ -18,10 +18,13 @@ body {
     margin: .45rem;
     border-radius: 5px;
     border: none;
-    color: rgb(50,40,50)
+    color: rgb(50,40,50);
     font-family: "Poppins", sans-serif;
 
 }
 
+.btn:hover {
+    opacity: 0.9;
+}
 
 
