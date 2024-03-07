@@ -12,6 +12,11 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .hero {
     background-image: url(images/heoro.jpg);
     background-repeat: no-repeat;
