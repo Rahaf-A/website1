@@ -136,3 +136,8 @@ body {
     color: rgb(192,57,43);
     font-weight: bold;
 }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
