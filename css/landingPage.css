@@ -118,7 +118,7 @@ input[type='submit'] {
     left: 0;
     right: 0;
     background-color: rgba(0,0,0,0.6);
-    /* display: none; */
+    display: none;
 }
 
 .modal {
@@ -126,7 +126,7 @@ input[type='submit'] {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%; -50%);
+    transform: translate(-50%, -50%);
     width: 400px;
     max-width: 100%;
     border-radius: 5px;
