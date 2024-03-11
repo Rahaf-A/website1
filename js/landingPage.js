@@ -12,6 +12,6 @@ open.addEventListener('click', () => {
     modal.classList.add('show-mode')
 })
 
-close.addEventListen('click', () => {
+close.addEventListener('click', () => {
     modal.classList.remove('show-model')
 })
