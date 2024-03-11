@@ -13,6 +13,7 @@
 body {
     margin:0 ;
     font-family: "Lato", sans-serif;
+    transition: transform 0.3s ease;
 }
 
 body.show-nav {
