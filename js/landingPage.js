@@ -9,9 +9,9 @@ toggle.addEventListener('click', () => {
 })
 
 open.addEventListener('click', () => {
-    modal.classList.add('show-mode')
+    modal.classList.add('show-modal')
 })
 
 close.addEventListener('click', () => {
-    modal.classList.remove('show-model')
+    modal.classList.remove('show-modal')
 })
