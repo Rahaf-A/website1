@@ -1,6 +1,6 @@
 toggle = document.getElementById('toggle')
 open = document.getElementById('open')
-model = document.getElementId('model')
+model = document.getElementById('model')
 close = document.getElementById('close')
 
 
