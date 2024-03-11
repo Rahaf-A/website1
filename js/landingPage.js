@@ -1,6 +1,6 @@
 toggle = document.getElementById('toggle')
 open = document.getElementById('open')
-model = document.getElementById('model')
+modal = document.getElementById('modal')
 close = document.getElementById('close')
 
 // Toggel Nav
@@ -15,10 +15,10 @@ open.addEventListener('click', () => {
 
 // Hide modal
 close.addEventListener('click', () => {
-    modal.classList.remove('show-model')
+    modal.classList.remove('show-modal')
 })
 
-// Hide Model on outside click
+// Hide Modal on outside click
 window.addEventListener('click', (e) => {
     if (e.target == modal) {
         modal.classList.remove('show-modal')
