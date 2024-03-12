@@ -189,3 +189,11 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.homebtn, .aboutbtn {
+    background-color: rgb(0, 0, 0);
+    color: rgb(34, 34, 34);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
